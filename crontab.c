@@ -8,8 +8,6 @@
 #include <syslog.h>
 #include <string.h>
 #include <pthread.h>
-#include <time.h>
-#include <signal.h>
 
 pthread_t tid[10];  
 char str1[50], str2[50], str3[50], str4[50], str5[50], str6[50];
